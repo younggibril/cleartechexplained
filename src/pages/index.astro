@@ -1,0 +1,184 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
+
+import { getCollection } from 'astro:content';
+
+const posts = (await getCollection('blog'))
+	.sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+	.slice(0, 4);
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+	</head>
+	<body>
+		<Header />
+
+		<main>
+			<section class="hero">
+				<h1>Technology Explained Clearly</h1>
+
+				<p>
+					ClearTechExplained helps you understand technology through practical
+					tutorials, troubleshooting guides, AI tool reviews, and beginner-friendly
+					explanations. Whether you are building a website, exploring artificial
+					intelligence, or solving everyday tech problems, you will find clear and
+					actionable guidance here.
+				</p>
+			</section>
+
+			<section>
+				<h2>What You'll Find Here</h2>
+
+				<ul>
+					<li>Technology tutorials and how-to guides</li>
+					<li>Windows troubleshooting solutions</li>
+					<li>AI tools and productivity resources</li>
+					<li>Web hosting and website creation tips</li>
+					<li>Beginner-friendly technology explanations</li>
+				</ul>
+			</section>
+
+			<section>
+				<h2>Featured Topics</h2>
+
+				<div class="topics">
+					<div class="card">
+						<h3>Artificial Intelligence</h3>
+						<p>
+							Discover AI tools, automation platforms, and practical ways to
+							improve productivity using modern technology.
+						</p>
+					</div>
+
+					<div class="card">
+						<h3>Technology Tutorials</h3>
+						<p>
+							Step by step guides designed to help beginners and professionals
+							solve real-world technology challenges.
+						</p>
+					</div>
+
+					<div class="card">
+						<h3>Web Hosting & Websites</h3>
+						<p>
+							Learn how to create, manage, and grow websites with clear hosting
+							and website-building tutorials.
+						</p>
+					</div>
+				</div>
+			</section>
+
+			<section>
+	<h2>Latest Articles</h2>
+
+	<div class="posts">
+		{
+			posts.map((post) => (
+				<a href={`/blog/${post.id}/`} class="post-card">
+					<h3>{post.data.title}</h3>
+					<p>{post.data.description}</p>
+					<span>Read Article →</span>
+				</a>
+			))
+		}
+	</div>
+</section>
+
+			<section>
+				<h2>Why ClearTechExplained?</h2>
+
+				<p>
+					Technology should not be confusing. Our mission is to break down
+					complex topics into practical, easy-to-understand content that helps
+					readers make better decisions and get more done.
+				</p>
+			</section>
+
+			<section class="cta">
+				<h2>Start Exploring</h2>
+
+				<p>
+					Browse our latest articles and discover practical technology insights,
+					AI tools, troubleshooting guides, and web development resources.
+				</p>
+			</section>
+		</main>
+
+		<Footer />
+	</body>
+</html>
+
+<style>
+	main {
+		max-width: 1000px;
+		margin: 0 auto;
+		padding: 2rem;
+	}
+
+	.hero {
+		text-align: center;
+		padding: 3rem 0;
+	}
+
+	h1 {
+		font-size: 3rem;
+		margin-bottom: 1rem;
+	}
+
+	h2 {
+		margin-top: 3rem;
+		margin-bottom: 1rem;
+	}
+
+	p {
+		line-height: 1.7;
+	}
+
+	.topics {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		gap: 1.5rem;
+		margin-top: 1rem;
+	}
+
+	.card {
+		padding: 1.5rem;
+		border: 1px solid #ddd;
+		border-radius: 12px;
+	}
+
+	.cta {
+		text-align: center;
+		padding: 3rem 0;
+	}
+
+	ul li {
+		margin-bottom: 0.75rem;
+	}
+	.posts {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+	gap: 1.5rem;
+	margin-top: 1rem;
+}
+
+.post-card {
+	display: block;
+	padding: 1.5rem;
+	border: 1px solid #ddd;
+	border-radius: 12px;
+	text-decoration: none;
+	color: inherit;
+	transition: transform 0.2s ease;
+}
+
+.post-card:hover {
+	transform: translateY(-4px);
+}
+</style>
