@@ -1,0 +1,43 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+
+const title = "Disclaimer";
+const description = "Disclaimer for ClearTechExplained.";
+---
+
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={description} />
+  </head>
+
+  <body>
+    <Header />
+
+    <main class="container">
+      <h1>Disclaimer</h1>
+
+      <p>
+        The information provided on this website is for general informational purposes only.
+      </p>
+
+      <h2>No Professional Advice</h2>
+      <p>
+        We do not provide financial, legal, or professional advice. All content should be used at your own discretion.
+      </p>
+
+      <h2>Accuracy of Information</h2>
+      <p>
+        We try to keep information accurate and updated, but we make no guarantees.
+      </p>
+
+      <h2>External Links</h2>
+      <p>
+        This website may contain links to external websites. We are not responsible for their content.
+      </p>
+    </main>
+
+    <Footer />
+  </body>
+</html>
