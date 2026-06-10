@@ -2,6 +2,7 @@
 title: "Copy.ai Review – Is Copy.ai Worth the Investment?"
 description: "A detailed review of Copy.ai, its features, strengths, and limitations to help you decide if it’s the right AI writing tool for your content workflow."
 pubDate: 2026-06-06
+updatedDate: 2026-06-10
 tags:
   - Copy.ai
   - AI writing tools
