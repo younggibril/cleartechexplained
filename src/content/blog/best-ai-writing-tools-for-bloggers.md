@@ -86,6 +86,7 @@ You can test drive the RightBlogger AI for free or subscribe to one of the avail
 - Requires human input for accuracy, brand voice, and fact-checking 
 
 ### Jasper AI – Best for Agencies and Teams 
+![Jasper AI – Best for Agencies and Teams](../../assets/jasper-ai-2.jpg)
 [Jasper AI](https://cleartechexplained.pages.dev/blog/jasper-ai-review/) is one of the best content creation tools for agencies and teams. With this AI tool, you can create blog posts, marketing copy, product descriptions, Facebook ads, and stunning AI images.
 
 It harnesses advanced machine learning and artificial intelligence to accelerate your content creation process, making it faster, more engaging, and more effective. Jasper AI model can elevate your writing style and design. With Jasper AI, you get a wide range of features that stand out.   
@@ -122,6 +123,7 @@ Jasper AI offers two plans: The Business and Pro packages. The pro plan starts a
 - More expensive than general-purpose AI tools 
 
 ### Surfer AI – Best SEO Strategy and SEO Integration 
+![Surfer AI – Best SEO Strategy and SEO Integration](../../assets/surfer-ai-2.jpg)
 Are you a fan of SurferSEO? It’s one of the best SEO tools for creating high-ranking content pieces. The same brand launched Surfer AI. This is an AI writing model built on top of SurferSEO. 
 
 What makes Surfer AI stand out is its capability to use real data to create SEO-optimized drafts. Its SEO strategy combines on-page optimization, competitor analysis, content structure, and keyword research into a single workflow. 
@@ -155,6 +157,7 @@ Surfer AI offers three plans: Enterprise, Scale, and Essential. The most afforda
 - Doesn’t offer a free trial 
 
 ### Copy.ai – Best for Short-Form Marketing Copy 
+![Copy.ai – Best for Short-Form Marketing Copy](../../assets/copy-ai-2.jpg)
 Is go-to-market content creation what you are interested in? [Copy.ai](https://cleartechexplained.pages.dev/blog/copy-ai-review/) is what you need. This AI assistant shines at producing short-form marketing copy, such as social media posts, emails, and ad copy. It uses natural language processing to generate creative and relevant suggestions. 
 
 Creating advertising copy and marketing campaigns is easy with Copy.ai. Whether you are working on display ads, Google ads, Facebook ads, or any other social media content, this AI tool will get the job done. It uses human input and goals to generate marketing copy. Not to mention the wide selection of templates. 
@@ -186,6 +189,7 @@ Copy.ai offers two plans: Self-Serve and Enterprise. The Self-Serve starts at 29
 - SEO limitations 
 
 ### Writesonic AI – Most Convenient Start Free Trial
+![Writesonic AI – Most Convenient Start Free Trial](../../assets/writesonic-ai-2.jpg)
 [Writesonic](https://writesonic.com/) is among the best AI writing tools for bloggers, blending human creativity with AI power. The model can help you scale content creation and output without changing your values. 
 
 It’s a reliable platform for creating short and long-form content. You can generate SEO descriptions, blog posts, product descriptions, and any web content you can think of. It includes multiple resourceful features for bloggers, including a content engine, SEO, AI visibility actions, AI visibility tracking, an AI article writer, and a content optimizer. 
