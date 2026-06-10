@@ -2,55 +2,62 @@
 const today = new Date();
 ---
 
-<footer>
-	&copy; {today.getFullYear()} ClearTechExplained. All rights reserved.
+<footer class="site-footer">
+	<div class="footer-inner">
+		<div class="footer-left">
+			&copy; {today.getFullYear()} ClearTechExplained. All rights reserved.
+		</div>
 
-	<nav class="footer-links">
-		<a href="/privacy-policy/">Privacy Policy</a>
-		<a href="/terms-of-service/">Terms of Service</a>
-		<a href="/disclaimer/">Disclaimer</a>
-	</nav>
+		<nav class="footer-right">
+			<a href="/privacy-policy/">Privacy Policy</a>
+			<a href="/terms-of-service/">Terms of Service</a>
+			<a href="/disclaimer/">Disclaimer</a>
+		</nav>
+	</div>
 </footer>
 
 <style>
-	footer {
+	.site-footer {
 		padding: 2em 1em 6em 1em;
 		background: linear-gradient(var(--gray-gradient)) no-repeat;
 		color: rgb(var(--gray));
+	}
+
+	.footer-inner {
+		max-width: 1100px;
+		margin: 0 auto;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		gap: 1em;
+		flex-wrap: wrap;
 		text-align: center;
 	}
 
-	.footer-links {
-		margin-top: 1em;
-		display: flex;
-		justify-content: center;
-		gap: 1.5em;
-		flex-wrap: wrap;
+	.footer-left {
+		font-size: 14px;
 	}
 
-	.footer-links a {
+	.footer-right {
+		display: flex;
+		gap: 1.5em;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	.footer-right a {
 		text-decoration: none;
 		color: rgb(var(--gray));
 		font-size: 14px;
 	}
 
-	.footer-links a:hover {
+	.footer-right a:hover {
 		color: rgb(var(--gray-dark));
 	}
 
-	.social-links {
-		display: flex;
-		justify-content: center;
-		gap: 1em;
-		margin-top: 1em;
-	}
-
-	.social-links a {
-		text-decoration: none;
-		color: rgb(var(--gray));
-	}
-
-	.social-links a:hover {
-		color: rgb(var(--gray-dark));
+	@media (max-width: 600px) {
+		.footer-inner {
+			flex-direction: column;
+		}
 	}
 </style>
