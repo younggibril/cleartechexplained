@@ -8,6 +8,8 @@ tags:
   - content marketing
   - copywriting
 heroImage: "../../assets/copy-ai-1.png"
+draft: false
+author: "Gabriel Ochola"
 ---
 Imagine staring at a blank page for hours, thinking about your next social media post, email copy, product description, or blog post idea. Your head is spinning, and you wish for an AI writing tool to help you out. That’s where Copy.ai comes in. 
 

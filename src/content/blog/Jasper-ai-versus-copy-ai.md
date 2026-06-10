@@ -3,6 +3,8 @@ title: "Jasper AI vs. Copy.ai in 2026: The Ultimate Writing Tool Showdown"
 description: "A detailed comparison of Jasper AI and Copy.ai in 2026, analyzing features, pricing, usability, integrations, and performance to determine the best AI writing tool."
 pubDate: 2026-06-06
 heroImage: "../../assets/jasper-ai-vs-copy-ai-1.png"
+draft: false
+author: "Gabriel Ochola"
 ---
 The year is 2026, and Artificial Intelligence has proven to be an indispensable partner in content creation. The once-nascent field of AI writing tools is now a dynamic ecosystem. Its sophisticated platforms empower writers, marketers, and businesses.
 

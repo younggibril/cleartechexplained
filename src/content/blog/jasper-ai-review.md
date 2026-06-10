@@ -3,6 +3,8 @@ title: "Jasper AI Review: Is It the Right Writing Tool for Coaches and Creators?
 description: "An in-depth Jasper AI review covering its features, benefits, pricing, and whether it's the right AI writing assistant for coaches, creators, and content marketers."
 pubDate: 2026-06-06
 heroImage: "../../assets/jasper-ai-1.png"
+draft: false
+author: "Gabriel Ochola"
 ---
 Nothing is more challenging for online creators and coaches than creating consistent content. Jasper AI can act as a structured thinking partner, helping coaches and creators refine their methodologies. It can help them increase productivity, take on more clients, and offer a wide range of services. This review will break down what Jasper AI does and who it is best for. 
 

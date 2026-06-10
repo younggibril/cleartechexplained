@@ -3,6 +3,8 @@ title: 'How Bloggers Use AI Writing Tools (Without Sounding Robotic)'
 description: 'Learn how successful bloggers use AI writing tools while keeping their content natural, authentic, and engaging.'
 pubDate: 2026-06-05
 heroImage: '../../assets/ai-writing-tools-1.png'
+draft: false
+author: "Gabriel Ochola"
 ---
 AI writing tools for content creation can write your entire blog post, essay, or review in seconds, but should they?
 
