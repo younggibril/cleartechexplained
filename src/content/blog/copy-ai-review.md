@@ -37,7 +37,7 @@ This AI copywriting software adapts to the task at hand. This ensures the conten
 You don’t have to be a genius to start using this AI model. Provides a simple user experience with its user-friendly interface. Even non-technical users can click around, select a template that works for you, and start generating content. You can also request a live demo of Copy.ai. The demo gives you a live walkthrough of the AI platform, allows you to explore use cases, and review the best pricing options. 
 
 ### Large Template Library
-Copy.ai rivals other advanced artificial intelligence platforms like Jasper AI and Frase with its extensive template library. It has over 90 templates for different use cases. You can browse templates by category and free tools. Some popular options include email templates, business plan templates, SEO title generator, and blog title generator. 
+Copy.ai rivals other advanced artificial intelligence platforms like [Jasper AI](https://cleartechexplained.pages.dev/blog/jasper-ai-review/) and Frase with its extensive template library. It has over 90 templates for different use cases. You can browse templates by category and free tools. Some popular options include email templates, business plan templates, SEO title generator, and blog title generator. 
 
 ### Paid Plans Offer Unlimited Words in Chat 
 Small teams can start with the self-serve package, which offers unlimited chat projects and unlimited words in chat. This is big for someone who needs lots of variations. 
