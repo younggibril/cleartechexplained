@@ -6,7 +6,7 @@ import Layout from '../layouts/BlogPost.astro';
 <Layout
 	title="About ClearTechExplained"
 	description="Learn more about ClearTechExplained and our mission to simplify AI and technology."
-	pubDate={new Date('June 06 2026')}
+	pubDate={new Date('')}
 	heroImage={AboutHeroImage}
 >
 	<p>
@@ -88,3 +88,43 @@ import Layout from '../layouts/BlogPost.astro';
 		<strong>Thank you for visiting, and I hope ClearTechExplained becomes a trusted resource on your technology journey.</strong>
 	</p>
 </Layout>
+
+<style>
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+  }
+
+  h1,
+  h2,
+  h3 {
+    margin-bottom: 1rem;
+  }
+
+  p {
+    line-height: 1.8;
+    margin-bottom: 1.2rem;
+  }
+
+  ul {
+    list-style-position: inside;
+    padding: 0;
+    margin: 1.5rem 0;
+  }
+
+  li {
+    margin-bottom: 0.5rem;
+  }
+
+  .author-photo {
+    display: block;
+    width: 220px;
+    height: 220px;
+    margin: 2rem auto;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+  }
+</style>
