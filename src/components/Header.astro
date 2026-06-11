@@ -5,7 +5,10 @@ import HeaderLink from './HeaderLink.astro';
 
 <header>
 	<nav>
-		<h2 class="site-title"><a href="/">{SITE_TITLE}</a></h2>
+  <a href="/">
+    <img src="/logo.png" alt="ClearTechExplained" class="site-logo" />
+  </a>
+</h2>
 		<div class="internal-links">
 			<HeaderLink href="/">Home</HeaderLink>
 			<HeaderLink href="/blog">Blog</HeaderLink>
@@ -63,4 +66,9 @@ import HeaderLink from './HeaderLink.astro';
 			display: none;
 		}
 	}
+	.site-logo {
+  width: 220px;   /* Adjust this value if needed */
+  height: auto;
+  display: block;
+}
 </style>
