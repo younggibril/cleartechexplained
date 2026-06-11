@@ -6,11 +6,11 @@ import Layout from '../layouts/BlogPost.astro';
 <Layout
 	title="About ClearTechExplained"
 	description="Learn more about ClearTechExplained and our mission to simplify AI and technology."
-	pubDate={new Date('')}
 	heroImage={AboutHeroImage}
 >
 	<p>
 	    Welcome to <strong>ClearTechExplained</strong>, a technology blog founded by <strong>Gabriel Ochola</strong> with a simple mission: to make technology easier to understand and more accessible to everyone.
+	</p>
 	<p>
 		In a world where artificial intelligence, software tools, and digital platforms evolve every day, finding clear and trustworthy information can be challenging. ClearTechExplained was created to cut through the complexity and provide practical, easy-to-follow guidance that helps readers make informed decisions.
 	</p>
@@ -20,9 +20,8 @@ import Layout from '../layouts/BlogPost.astro';
 	<img
   src="/images/gabriel-ochola.jpg"
   alt="Gabriel Ochola"
-  width="250"
-  height="250"
-/>
+  class="author-photo"
+    />
 
 	<p>
 		I'm <strong>Gabriel Ochola</strong>, the creator and author behind ClearTechExplained. <strong>I'm passionate about simplifying technology and explaining complex concepts in a way that anyone can understand</strong>, regardless of their technical background.
@@ -38,7 +37,7 @@ import Layout from '../layouts/BlogPost.astro';
 		ClearTechExplained publishes well-researched content covering topics such as:
 	</p>
 
-	<p>
+	<ul>
 		<li>
 			Artificial intelligence and AI tools
 		</li>
@@ -60,7 +59,7 @@ import Layout from '../layouts/BlogPost.astro';
 		<li>
 			Emerging technology trends
 		</li>
-	</p>
+	</ul>
 
 	<p>
 		Every article is written with an emphasis on clarity, accuracy, and practical value.
