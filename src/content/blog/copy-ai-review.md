@@ -21,7 +21,7 @@ This impressive AI writing assistant has been evolving. Research suggests that m
 Let’s see if Copy.ai is worth the hype and the investment for content writers, sales lead managers, and marketing Ops managers!
 
 ## What is Copy.ai? 
-Copy.ai is one of the best AI copywriting tools for content creation. This content creation platform allows you to generate: 
+Copy.ai is one of the [best AI copywriting tools](https://cleartechexplained.pages.dev/blog/best-ai-writing-tools-for-bloggers/) for content creation. This content creation platform allows you to generate: 
 - Marketing copy
 - Ad copy
 - Social media campaign
